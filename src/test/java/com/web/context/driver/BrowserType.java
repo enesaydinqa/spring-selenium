@@ -1,4 +1,4 @@
-package com.web.context;
+package com.web.context.driver;
 
 public enum BrowserType
 {

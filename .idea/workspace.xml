@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91c8be-dc92-44d4-8f04-60c0eb6c9713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/SampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/TwitterAppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/TwitterConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/context/AbstractTwitterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/context/BrowserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/context/ChromeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/context/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/context/DriverWebTestFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/twitter-client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/HibernateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/database-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/SampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/TwitterAppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/TwitterAppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/AbstractTwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/AbstractTwitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/driver/BrowserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/driver/ChromeDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/DriverWebTestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/driver/DriverWebTestFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/TwitterConfigProp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/TwitterConfigProp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,25 +28,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/SampleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="78">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,23 +47,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/AbstractTwitterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="78">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#532#551#1" expanded="true" />
-                <element signature="e#600#623#1" expanded="true" />
-                <element signature="e#680#693#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/driver/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/TwitterAppConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="143">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,6 +102,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SpringRunner</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java/com</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -102,14 +121,25 @@
         <option value="$PROJECT_DIR$/src/test/java/com/web/context/BrowserType.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/web/context/ChromeDriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/web/context/DriverWebTestFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/web/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/web/TwitterConfiguration.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/web/context/DriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/web/SampleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/context/twitter/TwitterConfigProp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/TwitterConfiguration.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/web/context/AbstractTwitterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/HibernateConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/SampleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/web/TwitterAppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/test/SampleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/context/TwitterConfigProp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/context/driver/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/context/AbstractTwitterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/context/TwitterAppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/test/SampleTwitterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/AppConfig.java" />
       </list>
     </option>
   </component>
@@ -120,7 +150,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1125" />
@@ -130,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,11 +168,6 @@
             <path>
               <item name="spring-test-automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-test-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-test-automation" type="b2602c69:ProjectViewProjectNode" />
@@ -168,6 +194,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-test-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-test-automation" type="b2602c69:ProjectViewProjectNode" />
@@ -193,25 +228,52 @@
               <item name="spring-selenium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-test-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-test-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
@@ -228,16 +290,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwitterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test-automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.web.*" />
+          <option name="PATTERN" value="com.web.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.web" />
-      <option name="MAIN_CLASS_NAME" value="com.web.SampleTest" />
+      <option name="PACKAGE_NAME" value="com.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.web.test.TwitterTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
@@ -258,7 +320,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SampleTest.test" />
+        <item itemvalue="JUnit.TwitterTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -272,75 +334,81 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571471848354</updated>
-      <workItem from="1571471849631" duration="4822000" />
+      <workItem from="1571471849631" duration="8600000" />
+      <workItem from="1571482476013" duration="318000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 03m 15s.xml">
+    <history-entry file="SampleTest_test - 2019.10.19 at 13h 36m 47s.xml">
       <configuration name="SampleTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 03m 48s.xml">
+    <history-entry file="SampleTest_test - 2019.10.19 at 13h 37m 28s.xml">
       <configuration name="SampleTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 06m 26s.xml">
+    <history-entry file="SampleTest_test - 2019.10.19 at 13h 37m 51s.xml">
       <configuration name="SampleTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 11m 00s.xml">
+    <history-entry file="SampleTest_test - 2019.10.19 at 13h 38m 42s.xml">
       <configuration name="SampleTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 12m 02s.xml">
-      <configuration name="SampleTest.test" configurationId="JUnit" />
+    <history-entry file="TwitterTest_test - 2019.10.19 at 13h 42m 51s.xml">
+      <configuration name="TwitterTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 12m 46s.xml">
-      <configuration name="SampleTest.test" configurationId="JUnit" />
+    <history-entry file="TwitterTest_test - 2019.10.19 at 13h 43m 36s.xml">
+      <configuration name="TwitterTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 38m 11s.xml">
-      <configuration name="SampleTest.test" configurationId="JUnit" />
+    <history-entry file="TwitterTest_test - 2019.10.19 at 13h 43m 45s.xml">
+      <configuration name="TwitterTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_test - 2019.10.19 at 12h 38m 45s.xml">
-      <configuration name="SampleTest.test" configurationId="JUnit" />
+    <history-entry file="TwitterTest_test - 2019.10.19 at 13h 44m 16s.xml">
+      <configuration name="TwitterTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwitterTest_test - 2019.10.19 at 13h 45m 10s.xml">
+      <configuration name="TwitterTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwitterTest_test - 2019.10.19 at 13h 55m 17s.xml">
+      <configuration name="TwitterTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4822000" />
+    <option name="totallyTimeSpent" value="8918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32913843" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32871288" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32970297" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,13 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/sample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/sample.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.4.0/selenium-chrome-driver-3.4.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -372,61 +434,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/TwitterConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/TwitterConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/core/env/Environment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/DriverWebTestFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/ChromeDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/BrowserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="78">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        <state relative-caret-position="-77">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/driver/DriverWebTestFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/driver/ChromeDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/driver/BrowserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/TwitterConfigProp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -437,10 +504,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/SampleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/TwitterAppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="143">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/database-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/HibernateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -449,21 +540,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/AbstractTwitterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="78">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#532#551#1" expanded="true" />
-            <element signature="e#600#623#1" expanded="true" />
-            <element signature="e#680#693#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/TwitterAppConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/AbstractSeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="91">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/context/driver/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/console.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="299">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -473,6 +588,64 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-test-automation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19848156" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -480,6 +653,17 @@
             <option name="proportions">
               <list>
                 <option value="0.19848156" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

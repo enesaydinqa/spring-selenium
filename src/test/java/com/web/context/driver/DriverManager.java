@@ -1,8 +1,9 @@
-package com.web.context;
+package com.web.context.driver;
 
+import com.AppConfig;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public abstract class DriverManager
+public abstract class DriverManager extends AppConfig
 {
     protected static RemoteWebDriver driver;
 
