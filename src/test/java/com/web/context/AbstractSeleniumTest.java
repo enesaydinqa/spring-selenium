@@ -5,7 +5,6 @@ import org.junit.Before;
 
 public class AbstractSeleniumTest extends DriverManager
 {
-
     @Before
     public void setUp() throws Exception
     {
