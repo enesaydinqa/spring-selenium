@@ -6,7 +6,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -14,7 +13,6 @@ public class LoginPage extends PageObject
 {
     private static final Logger logger = Logger.getLogger(LoginPage.class);
 
-    @Autowired
     LoginPage(DriverManager driverManager)
     {
         super(driverManager);

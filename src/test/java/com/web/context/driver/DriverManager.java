@@ -2,9 +2,7 @@ package com.web.context.driver;
 
 import com.AppConfig;
 import org.openqa.selenium.WebDriver;
-import org.springframework.stereotype.Component;
 
-@Component
 public abstract class DriverManager extends AppConfig
 {
     protected static WebDriver driver;
