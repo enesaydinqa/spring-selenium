@@ -18,7 +18,7 @@ public class AbstractSeleniumTest extends DriverManager
         DriverManager driverManager;
         driverManager = DriverWebTestFactory.getManager();
 
-        driver = driverManager.getDriver();
+        driver = driverManager.getWebDriver();
     }
 
     @After

@@ -5,10 +5,13 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
+@Component
 public class ChromeDriverManager extends DriverManager
 {
     private static final Logger logger = Logger.getLogger(ChromeDriverManager.class);
@@ -33,6 +36,10 @@ public class ChromeDriverManager extends DriverManager
         }
 
         driver = new ChromeDriver(desiredCapabilities);
+
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(90, TimeUnit.SECONDS);
     }
 
     private DesiredCapabilities desiredCapabilities(ChromeOptions chromeOptions)

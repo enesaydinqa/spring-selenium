@@ -1,22 +1,29 @@
 package com.web.context.driver;
 
 import com.AppConfig;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.WebDriver;
+import org.springframework.stereotype.Component;
 
+@Component
 public abstract class DriverManager extends AppConfig
 {
-    protected static RemoteWebDriver driver;
+    protected static WebDriver driver;
 
     protected void createDriver()
     {
     }
 
-    public RemoteWebDriver getDriver()
+    public WebDriver getWebDriver()
     {
         if (driver == null)
         {
             createDriver();
         }
+        return driver;
+    }
+
+    public static WebDriver getDriver()
+    {
         return driver;
     }
 }
