@@ -14,5 +14,7 @@ public class TwitterTest extends AbstractTwitterTest
         logger.info(twitterConfigProp.twitterUserName);
         logger.info(twitterConfigProp.twitterTestUserPassword);
         logger.info(twitterConfigProp.twitterBaseUrl);
+
+        logger.info(jdbcTemplate.queryForObject("select 'textboxid' from testbox where id =6;", String.class));
     }
 }
