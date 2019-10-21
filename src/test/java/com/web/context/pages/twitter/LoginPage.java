@@ -48,10 +48,11 @@ public class LoginPage extends PageObject
         return this;
     }
 
-    public LoginPage assertLoggedInUser() throws Exception
+    public LoginPage assertLoggedInUser()
     {
         browser.sleep(5);
         browser.waitForPageLoadComplete();
+
         Assert.assertEquals(UrlFactory.HOME_PAGE.pageUrl, DriverManager.getDriver().getCurrentUrl());
         return this;
     }
