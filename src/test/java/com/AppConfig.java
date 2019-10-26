@@ -17,7 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
                 "classpath:/twitter-client.properties"
 
         })
-@ComponentScan(basePackages = "com")
+@ComponentScan(basePackages = "com.web")
 @ContextConfiguration(classes = HibernateConfiguration.class)
 public class AppConfig
 {
