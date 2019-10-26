@@ -1,13 +1,13 @@
 package com.mobile.context;
 
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
 
 @Component
 public class DeviceManager
@@ -20,8 +20,10 @@ public class DeviceManager
 
         getDevicesUID.forEach(device ->
         {
-            String result = getDevicesInformation(ADBCommands.ADB_RO_BUILD_VERSION_RELEASE.getAdbCommand(), device);
-            logger.info(result);
+            String deviceVersion = getDevicesInformation(ADBCommands.ADB_RO_BUILD_VERSION_RELEASE.getAdbCommand(), device);
+
+            logger.info("device uid : { " + device + " }");
+            logger.info("device version : { " + deviceVersion + " }");
         });
     }
 
