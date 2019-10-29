@@ -14,7 +14,7 @@ public class TwitterTest extends AbstractTwitterTest
     LoginPage loginPage;
 
     @Test
-    public void testSuccessfullyLogin() throws Exception
+    public void testSuccessfullyLogin()
     {
         loginPage
                 .navigateToLoginPage()

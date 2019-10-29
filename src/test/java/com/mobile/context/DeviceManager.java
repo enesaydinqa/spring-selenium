@@ -21,9 +21,15 @@ public class DeviceManager
         getDevicesUID.forEach(device ->
         {
             String deviceVersion = getDevicesInformation(ADBCommands.ADB_RO_BUILD_VERSION_RELEASE.getAdbCommand(), device);
+            String deviceManufacturer = getDevicesInformation(ADBCommands.ADB_RO_PRODUCT_MANUFACTURER.getAdbCommand(), device);
+            String deviceModel = getDevicesInformation(ADBCommands.ADB_RO_PRODUCT_MODEL.getAdbCommand(), device);
 
+            logger.info("-----------------------------------------------------");
             logger.info("device uid : { " + device + " }");
             logger.info("device version : { " + deviceVersion + " }");
+            logger.info("device manufacturer : { " + deviceManufacturer + " }");
+            logger.info("device model : { " + deviceModel + " }");
+            logger.info("-----------------------------------------------------");
         });
     }
 
