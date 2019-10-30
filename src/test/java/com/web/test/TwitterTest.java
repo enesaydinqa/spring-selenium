@@ -22,7 +22,6 @@ public class TwitterTest extends AbstractTwitterTest
                 .loginButtonClick()
                 .assertLoggedInUser();
 
-        logger.info(jdbcTemplate.queryForObject("SELECT * FROM users WHERE id=1", String.class));
     }
 
 

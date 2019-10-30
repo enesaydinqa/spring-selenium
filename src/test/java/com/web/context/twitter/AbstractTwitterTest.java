@@ -10,7 +10,6 @@ public class AbstractTwitterTest extends AbstractSeleniumTest
 {
     @Autowired
     public TwitterConfigProp twitterConfigProp;
+
+
 }
-
-
-

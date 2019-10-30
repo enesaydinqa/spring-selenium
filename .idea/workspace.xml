@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91c8be-dc92-44d4-8f04-60c0eb6c9713" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobile/test/InstragramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobile/test/SampleMobileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwitterTest.testSuccessfullyLogin">
+  <component name="RunManager" selected="JUnit.QueryTest.testQuery">
     <configuration name="InstragramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test-automation" />
       <extension name="coverage">
@@ -120,6 +121,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueryTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.web.test.QueryTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterTest.testSuccessfullyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test-automation" />
       <extension name="coverage">
@@ -150,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueryTest.testQuery" />
         <item itemvalue="JUnit.TwitterTest.testSuccessfullyLogin" />
         <item itemvalue="JUnit.InstragramTest.test" />
         <item itemvalue="JUnit.InstragramTest.testjhdsjadsajd" />
@@ -181,12 +201,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
