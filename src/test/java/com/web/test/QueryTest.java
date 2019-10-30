@@ -12,6 +12,6 @@ public class QueryTest extends AbstractTwitterTest
 
     @Test
     public void testQuery(){
-        logger.info(jdbcTemplate.queryForObject("SELECT first_name FROM users WHERE id=1", String.class));
+        logger.error(jdbcTemplate.queryForObject("SELECT first_name FROM users WHERE id=1".toUpperCase(), String.class));
     }
 }
