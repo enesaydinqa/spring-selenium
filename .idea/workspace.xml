@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91c8be-dc92-44d4-8f04-60c0eb6c9713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/value/TwitterConfigProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/TwitterConfigProp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/test/hibernate/QueryTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,113 +38,36 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1XLlr7MGMSVSvo9BBMx0ClVsymE" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/drivers" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.QueryTest.testQuery">
-    <configuration name="InstragramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mobile.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mobile.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mobile.test.InstragramTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstragramTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mobile.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mobile.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mobile.test.InstragramTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstragramTest.testjhdsjadsajd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mobile.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mobile.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mobile.test.InstragramTest" />
-      <option name="METHOD_NAME" value="testjhdsjadsajd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.web.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.web.test" />
-      <option name="MAIN_CLASS_NAME" value="com.web.test.QueryTest" />
-      <option name="METHOD_NAME" value="testQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwitterTest.testSuccessfullyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
+  <component name="RunManager" selected="JUnit.ValueAnnotationTest.propFileValueReadTest">
+    <configuration name="TwitterTest.testSuccessfullyLogin" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="spring-selenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.web.test.*" />
@@ -150,6 +77,24 @@
       <option name="PACKAGE_NAME" value="com.web.test" />
       <option name="MAIN_CLASS_NAME" value="com.web.test.TwitterTest" />
       <option name="METHOD_NAME" value="testSuccessfullyLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValueAnnotationTest.propFileValueReadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.test.value.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.test.value" />
+      <option name="MAIN_CLASS_NAME" value="com.web.test.value.ValueAnnotationTest" />
+      <option name="METHOD_NAME" value="propFileValueReadTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
       <option name="PARAMETERS" value="" />
@@ -169,13 +114,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueryTest.testQuery" />
-        <item itemvalue="JUnit.TwitterTest.testSuccessfullyLogin" />
-        <item itemvalue="JUnit.InstragramTest.test" />
-        <item itemvalue="JUnit.InstragramTest.testjhdsjadsajd" />
-        <item itemvalue="JUnit.InstragramTest" />
+        <item itemvalue="JUnit.ValueAnnotationTest.propFileValueReadTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,11 +145,11 @@
       <workItem from="1572085309859" duration="589000" />
       <workItem from="1572086221254" duration="4337000" />
       <workItem from="1572343050443" duration="2380000" />
+      <workItem from="1580833453555" duration="930000" />
+      <workItem from="1580834470645" duration="178000" />
+      <workItem from="1580834665206" duration="1809000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31429000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -206,11 +159,79 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="245" key="#TwitterTest.testSuccessfullyLogin" timestamp="1580835388863">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="526" y="245" key="#TwitterTest.testSuccessfullyLogin/0.0.1920.1200@0.0.1920.1200" timestamp="1580835388863" />
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580835416675">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1580835416675" />
+    <state x="773" y="291" key="#com.intellij.ide.util.MemberChooser" timestamp="1580834425764">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="773" y="291" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1580834425764" />
+    <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1580836540901">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540901" />
+    <state width="1878" height="485" key="GridCell.Tab.0.center" timestamp="1580836540900">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="485" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540900" />
+    <state width="1878" height="485" key="GridCell.Tab.0.left" timestamp="1580836540899">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="485" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540899" />
+    <state width="1878" height="485" key="GridCell.Tab.0.right" timestamp="1580836540901">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="485" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540901" />
+    <state width="1878" height="423" key="GridCell.Tab.1.bottom" timestamp="1580835412528">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412528" />
+    <state width="1878" height="423" key="GridCell.Tab.1.center" timestamp="1580835412527">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412527" />
+    <state width="1878" height="423" key="GridCell.Tab.1.left" timestamp="1580835412526">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412526" />
+    <state width="1878" height="423" key="GridCell.Tab.1.right" timestamp="1580835412527">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412527" />
+    <state width="1878" height="423" key="GridCell.Tab.2.bottom" timestamp="1580835412529">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412529" />
+    <state width="1878" height="423" key="GridCell.Tab.2.center" timestamp="1580835412528">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412528" />
+    <state width="1878" height="423" key="GridCell.Tab.2.left" timestamp="1580835412528">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412528" />
+    <state width="1878" height="423" key="GridCell.Tab.2.right" timestamp="1580835412529">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="423" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412529" />
+    <state x="461" y="239" key="SettingsEditor" timestamp="1580833538821">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1580833538821" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,6 +240,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java</url>
           <line>24</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

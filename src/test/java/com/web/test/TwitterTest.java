@@ -23,6 +23,4 @@ public class TwitterTest extends AbstractTwitterTest
                 .assertLoggedInUser();
 
     }
-
-
 }
