@@ -1,11 +1,10 @@
-package com.web.test.hibernate;
+package com.web.test;
 
 import com.web.test.TwitterTest;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import com.web.context.twitter.AbstractTwitterTest;
-import org.apache.log4j.Logger.*;
 
 public class QueryTest extends AbstractTwitterTest
 {

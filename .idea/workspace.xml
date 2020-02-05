@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91c8be-dc92-44d4-8f04-60c0eb6c9713" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/HibernateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/value/TwitterConfigProp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/value/TwitterConfigProp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/value/ValueAnnotationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/value/ValueConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/hibernate/QueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,37 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValueAnnotationTest.propFileValueReadTest">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HibernateTest.testHibernate">
+    <configuration name="HibernateTest.testHibernate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.tutorial.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate" />
+      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.HibernateTest" />
+      <option name="METHOD_NAME" value="testHibernate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterTest.testSuccessfullyLogin" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="spring-selenium" />
       <extension name="coverage">
@@ -110,21 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HibernateTest.testHibernate" />
         <item itemvalue="JUnit.ValueAnnotationTest.propFileValueReadTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
