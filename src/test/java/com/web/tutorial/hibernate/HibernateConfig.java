@@ -17,7 +17,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @Configuration
 @PropertySource(value = "classpath:/database-test.properties")
-@ComponentScan(basePackages = "com.web.tutorial.hibernate")
 @ContextConfiguration(classes = HibernateConfig.class)
 public class HibernateConfig
 {

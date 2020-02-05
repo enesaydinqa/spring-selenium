@@ -71,6 +71,24 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.HibernateTest.testHibernate">
+    <configuration name="HibernateConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.tutorial.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate" />
+      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.HibernateConfig" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HibernateTest.testHibernate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test-automation" />
       <extension name="coverage">
@@ -138,6 +156,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HibernateTest.testHibernate" />
+        <item itemvalue="JUnit.HibernateConfig" />
         <item itemvalue="JUnit.ValueAnnotationTest.propFileValueReadTest" />
       </list>
     </recent_temporary>
