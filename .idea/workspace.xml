@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91c8be-dc92-44d4-8f04-60c0eb6c9713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/value/TwitterConfigProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueAnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/AbstractTwitterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/context/twitter/TwitterConfigProp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/test/hibernate/QueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/value/TwitterConfigProp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/value/TwitterConfigProp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/value/ValueAnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/value/ValueConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/value/ValueConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,12 +84,12 @@
       <module name="spring-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.web.test.value.*" />
+          <option name="PATTERN" value="com.web.tutorial.value.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.web.test.value" />
-      <option name="MAIN_CLASS_NAME" value="com.web.test.value.ValueAnnotationTest" />
+      <option name="PACKAGE_NAME" value="com.web.tutorial.value" />
+      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.value.ValueAnnotationTest" />
       <option name="METHOD_NAME" value="propFileValueReadTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
@@ -148,6 +144,7 @@
       <workItem from="1580833453555" duration="930000" />
       <workItem from="1580834470645" duration="178000" />
       <workItem from="1580834665206" duration="1809000" />
+      <workItem from="1580898762007" duration="567000" />
     </task>
     <servers />
   </component>
@@ -180,22 +177,22 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="773" y="291" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1580834425764" />
-    <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1580836540901">
+    <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1580899498901">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540901" />
-    <state width="1878" height="485" key="GridCell.Tab.0.center" timestamp="1580836540900">
+    <state width="1878" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498901" />
+    <state width="1878" height="485" key="GridCell.Tab.0.center" timestamp="1580899498900">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540900" />
-    <state width="1878" height="485" key="GridCell.Tab.0.left" timestamp="1580836540899">
+    <state width="1878" height="485" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498900" />
+    <state width="1878" height="485" key="GridCell.Tab.0.left" timestamp="1580899498899">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540899" />
-    <state width="1878" height="485" key="GridCell.Tab.0.right" timestamp="1580836540901">
+    <state width="1878" height="485" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498899" />
+    <state width="1878" height="485" key="GridCell.Tab.0.right" timestamp="1580899498900">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580836540901" />
+    <state width="1878" height="485" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498900" />
     <state width="1878" height="423" key="GridCell.Tab.1.bottom" timestamp="1580835412528">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
