@@ -23,6 +23,7 @@ public class HibernateConfig
     @Autowired
     private Environment environment;
 
+
     @Autowired
     protected JdbcTemplate jdbcTemplate;
 

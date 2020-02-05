@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91c8be-dc92-44d4-8f04-60c0eb6c9713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/sample/BeanSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/sample/BeanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/HibernateConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateTest.testHibernate">
+  <component name="RunManager" selected="JUnit.BeanTest.testBean">
+    <configuration name="BeanTest.asdsa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.tutorial.hibernate.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.sample.BeanTest" />
+      <option name="METHOD_NAME" value="asdsa" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanTest.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.tutorial.hibernate.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.sample.BeanTest" />
+      <option name="METHOD_NAME" value="testBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HibernateConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test-automation" />
       <extension name="coverage">
@@ -155,6 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanTest.testBean" />
+        <item itemvalue="JUnit.BeanTest.asdsa" />
         <item itemvalue="JUnit.HibernateTest.testHibernate" />
         <item itemvalue="JUnit.HibernateConfig" />
         <item itemvalue="JUnit.ValueAnnotationTest.propFileValueReadTest" />
