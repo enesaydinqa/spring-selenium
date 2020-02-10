@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91c8be-dc92-44d4-8f04-60c0eb6c9713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/sample/BeanSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/sample/BeanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/tutorial/hibernate/HibernateConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,92 +59,8 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.BeanTest.testBean">
-    <configuration name="BeanTest.asdsa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.web.tutorial.hibernate.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.sample.BeanTest" />
-      <option name="METHOD_NAME" value="asdsa" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanTest.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.web.tutorial.hibernate.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.sample.BeanTest" />
-      <option name="METHOD_NAME" value="testBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.web.tutorial.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate" />
-      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.HibernateConfig" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest.testHibernate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.web.tutorial.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.web.tutorial.hibernate" />
-      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.hibernate.HibernateTest" />
-      <option name="METHOD_NAME" value="testHibernate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwitterTest.testSuccessfullyLogin" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="QueryTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-selenium" />
       <extension name="coverage">
         <pattern>
@@ -154,26 +69,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.web.test" />
-      <option name="MAIN_CLASS_NAME" value="com.web.test.TwitterTest" />
-      <option name="METHOD_NAME" value="testSuccessfullyLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValueAnnotationTest.propFileValueReadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.web.tutorial.value.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.web.tutorial.value" />
-      <option name="MAIN_CLASS_NAME" value="com.web.tutorial.value.ValueAnnotationTest" />
-      <option name="METHOD_NAME" value="propFileValueReadTest" />
+      <option name="MAIN_CLASS_NAME" value="com.web.test.QueryTest" />
+      <option name="METHOD_NAME" value="testQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Dbrowser.type=chrome" />
       <option name="PARAMETERS" value="" />
@@ -193,13 +90,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeanTest.testBean" />
-        <item itemvalue="JUnit.BeanTest.asdsa" />
-        <item itemvalue="JUnit.HibernateTest.testHibernate" />
-        <item itemvalue="JUnit.HibernateConfig" />
-        <item itemvalue="JUnit.ValueAnnotationTest.propFileValueReadTest" />
+        <item itemvalue="JUnit.QueryTest.testQuery" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -220,6 +125,8 @@
       <workItem from="1580834470645" duration="178000" />
       <workItem from="1580834665206" duration="1809000" />
       <workItem from="1580898762007" duration="567000" />
+      <workItem from="1580908638881" duration="875000" />
+      <workItem from="1581349106412" duration="258000" />
     </task>
     <servers />
   </component>
@@ -240,66 +147,74 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="245" key="#BeanTest.testBean" timestamp="1580908256414">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="526" y="245" key="#BeanTest.testBean/0.0.1920.1200@0.0.1920.1200" timestamp="1580908256414" />
     <state x="526" y="245" key="#TwitterTest.testSuccessfullyLogin" timestamp="1580835388863">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="526" y="245" key="#TwitterTest.testSuccessfullyLogin/0.0.1920.1200@0.0.1920.1200" timestamp="1580835388863" />
-    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580835416675">
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580908261077">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1580835416675" />
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1580908261077" />
     <state x="773" y="291" key="#com.intellij.ide.util.MemberChooser" timestamp="1580834425764">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="773" y="291" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1580834425764" />
-    <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1580899498901">
+    <state width="1878" height="508" key="GridCell.Tab.0.bottom" timestamp="1581349572576">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498901" />
-    <state width="1878" height="485" key="GridCell.Tab.0.center" timestamp="1580899498900">
+    <state width="1878" height="508" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1581349572576" />
+    <state width="1878" height="508" key="GridCell.Tab.0.center" timestamp="1581349572575">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498900" />
-    <state width="1878" height="485" key="GridCell.Tab.0.left" timestamp="1580899498899">
+    <state width="1878" height="508" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1581349572575" />
+    <state width="1878" height="508" key="GridCell.Tab.0.left" timestamp="1581349572575">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498899" />
-    <state width="1878" height="485" key="GridCell.Tab.0.right" timestamp="1580899498900">
+    <state width="1878" height="508" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1581349572575" />
+    <state width="1878" height="508" key="GridCell.Tab.0.right" timestamp="1581349572576">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="485" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580899498900" />
-    <state width="1878" height="423" key="GridCell.Tab.1.bottom" timestamp="1580835412528">
+    <state width="1878" height="508" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1581349572576" />
+    <state width="1878" height="432" key="GridCell.Tab.1.bottom" timestamp="1581349415324">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412528" />
-    <state width="1878" height="423" key="GridCell.Tab.1.center" timestamp="1580835412527">
+    <state width="1878" height="432" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415324" />
+    <state width="1878" height="432" key="GridCell.Tab.1.center" timestamp="1581349415323">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412527" />
-    <state width="1878" height="423" key="GridCell.Tab.1.left" timestamp="1580835412526">
+    <state width="1878" height="432" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415323" />
+    <state width="1878" height="432" key="GridCell.Tab.1.left" timestamp="1581349415322">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412526" />
-    <state width="1878" height="423" key="GridCell.Tab.1.right" timestamp="1580835412527">
+    <state width="1878" height="432" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415322" />
+    <state width="1878" height="432" key="GridCell.Tab.1.right" timestamp="1581349415323">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412527" />
-    <state width="1878" height="423" key="GridCell.Tab.2.bottom" timestamp="1580835412529">
+    <state width="1878" height="432" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415323" />
+    <state width="1878" height="432" key="GridCell.Tab.2.bottom" timestamp="1581349415325">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412529" />
-    <state width="1878" height="423" key="GridCell.Tab.2.center" timestamp="1580835412528">
+    <state width="1878" height="432" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415325" />
+    <state width="1878" height="432" key="GridCell.Tab.2.center" timestamp="1581349415324">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412528" />
-    <state width="1878" height="423" key="GridCell.Tab.2.left" timestamp="1580835412528">
+    <state width="1878" height="432" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415324" />
+    <state width="1878" height="432" key="GridCell.Tab.2.left" timestamp="1581349415324">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412528" />
-    <state width="1878" height="423" key="GridCell.Tab.2.right" timestamp="1580835412529">
+    <state width="1878" height="432" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415324" />
+    <state width="1878" height="432" key="GridCell.Tab.2.right" timestamp="1581349415325">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580835412529" />
+    <state width="1878" height="432" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1581349415325" />
+    <state x="741" y="318" key="RollbackChangesDialog" timestamp="1580927929470">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="741" y="318" key="RollbackChangesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1580927929470" />
     <state x="461" y="239" key="SettingsEditor" timestamp="1580833538821">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -317,6 +232,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/web/test/TwitterTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/web/test/QueryTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/HibernateConfiguration.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
