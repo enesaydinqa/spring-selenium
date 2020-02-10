@@ -8,6 +8,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
+
 @Order(0)
 @RunWith(SpringRunner.class)
 @PropertySource(value =
