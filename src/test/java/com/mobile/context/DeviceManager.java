@@ -33,7 +33,7 @@ public class DeviceManager
         });
     }
 
-    private List<String> getDevicesUID() throws IOException, InterruptedException
+    public List<String> getDevicesUID() throws IOException, InterruptedException
     {
         List<String> devicesUID = new ArrayList<>();
 
@@ -61,7 +61,7 @@ public class DeviceManager
         return devicesUID;
     }
 
-    private String getDevicesInformation(String adbCommand, String devicesUid)
+    public String getDevicesInformation(String adbCommand, String devicesUid)
     {
         String result = null;
 
@@ -86,5 +86,7 @@ public class DeviceManager
 
         return result;
     }
+
+
 
 }

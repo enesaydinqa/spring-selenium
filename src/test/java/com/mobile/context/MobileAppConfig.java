@@ -10,6 +10,5 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource(value = {"classpath:/log4j.properties"})
 public class MobileAppConfig
 {
-    @Autowired
-    private DeviceManager deviceManager;
+
 }

@@ -18,13 +18,13 @@ public class LoginPage extends PageObject
         super(driverManager);
     }
 
-    @FindBy(xpath = "(//input[@name='session[username_or_email]'])[2]")
+    @FindBy(xpath = "(//input[@name='session[username_or_email]'])")
     private WebElement usernameOrEmailInput;
 
-    @FindBy(xpath = "(//input[@name='session[password]'])[2]")
+    @FindBy(xpath = "(//input[@name='session[password]'])")
     private WebElement passwordInput;
 
-    @FindBy(css = ".signin-wrapper .submit")
+    @FindBy(css = "[data-testid=\"LoginForm_Login_Button\"]")
     private WebElement logInButton;
 
     public LoginPage navigateToLoginPage()
