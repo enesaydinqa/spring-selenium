@@ -26,6 +26,13 @@ public class HibernateConfig
     protected JdbcTemplate jdbcTemplate;
 
     @Bean
+    JdbcTemplate jdbcTemplate()
+    {
+        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource());
+        jdbcTemplate.setQueryTimeout(60);
+        return jdbcTemplate;
+    }
+
     DataSource dataSource()
     {
         DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
@@ -34,13 +41,5 @@ public class HibernateConfig
         driverManagerDataSource.setPassword(environment.getRequiredProperty("database.connection.password"));
         driverManagerDataSource.setDriverClassName(environment.getRequiredProperty("database.connection.driver"));
         return driverManagerDataSource;
-    }
-
-    @Bean
-    JdbcTemplate jdbcTemplate()
-    {
-        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource());
-        jdbcTemplate.setQueryTimeout(60);
-        return jdbcTemplate;
     }
 }
