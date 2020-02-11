@@ -1,8 +1,9 @@
 package com.web.test;
 
-import com.web.context.twitter.AbstractTwitterTest;
 import org.apache.log4j.Logger;
 import org.junit.Test;
+
+import com.web.context.twitter.AbstractTwitterTest;
 
 public class QueryTest extends AbstractTwitterTest
 {
