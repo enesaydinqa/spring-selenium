@@ -1,10 +1,13 @@
 package com.web.context;
 
+import com.AppConfig;
 import com.web.context.driver.DriverManager;
 import com.web.context.driver.DriverWebTestFactory;
 import org.junit.After;
 import org.junit.Before;
+import org.springframework.test.context.ContextConfiguration;
 
+@ContextConfiguration(classes = AppConfig.class)
 public class AbstractSeleniumTest extends DriverManager
 {
     @Before
