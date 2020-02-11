@@ -10,7 +10,6 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
 
-
 @Configuration
 @PropertySource("classpath:database-test.properties")
 public class HibernateConfiguration
