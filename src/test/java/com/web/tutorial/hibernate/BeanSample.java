@@ -1,4 +1,4 @@
-package com.web.tutorial.hibernate.sample;
+package com.web.tutorial.hibernate;
 
 import org.apache.log4j.Logger;
 import org.junit.runner.RunWith;

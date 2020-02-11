@@ -1,4 +1,4 @@
-package com.web.tutorial.hibernate.sample;
+package com.web.tutorial.hibernate;
 
 import org.junit.Test;
 
