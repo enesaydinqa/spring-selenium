@@ -24,7 +24,7 @@ public class LoginPage extends PageObject
     @FindBy(xpath = "(//input[@name='session[password]'])")
     private WebElement passwordInput;
 
-    @FindBy(css = "[data-testid=\"LoginForm_Login_Button\"]")
+    @FindBy(css = "[data-testid='LoginForm_Login_Button']")
     private WebElement logInButton;
 
     public LoginPage navigateToLoginPage()
