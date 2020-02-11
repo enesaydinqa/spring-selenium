@@ -21,6 +21,5 @@ public class TwitterTest extends AbstractTwitterTest
                 .usernameAndPasswordEnter(twitterConfigProp.testUserName, twitterConfigProp.testUserPassword)
                 .loginButtonClick()
                 .assertLoggedInUser();
-
     }
 }
