@@ -29,9 +29,9 @@ public class HibernateConfiguration
     }
 
     @Bean
-    JdbcTemplate jdbcTemplate()
+    JdbcTemplate jdbcTemplate(DataSource dataSource)
     {
-        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource());
+        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
         jdbcTemplate.setQueryTimeout(60);
         return jdbcTemplate;
     }
