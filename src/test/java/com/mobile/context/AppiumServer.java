@@ -20,7 +20,7 @@ public class AppiumServer
     private static final String PORT = "8888";
 
     @Bean
-    boolean startServer()
+    boolean startAppiumServer()
     {
         if (!checkIfServerIsRunning(PORT))
         {
@@ -31,6 +31,20 @@ public class AppiumServer
             logger.info("already started appium server");
             return true;
         }
+    }
+
+    @Bean
+    boolean removeDevicesApp()
+    {
+        // test devices remove app
+        return true;
+    }
+
+    @Bean
+    boolean removeDevicesUiAutomator()
+    {
+        // test devices remove removeDevicesUiAutomator
+        return true;
     }
 
     private boolean startAppiumServer(String deviceServer, String devicePort)
