@@ -1,11 +1,10 @@
 package com.web.test;
 
+import com.web.context.pages.twitter.LoginPage;
+import com.web.context.twitter.AbstractTwitterTest;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import com.web.context.pages.twitter.LoginPage;
-import com.web.context.twitter.AbstractTwitterTest;
 
 public class TwitterTest extends AbstractTwitterTest
 {
